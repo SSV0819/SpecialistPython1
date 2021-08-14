@@ -3,3 +3,14 @@
 # Формат выходных данных: Выведите все числа, требуемые по условию задачи.
 
 # TODO: your code here
+a = int(input("a:"))
+b = int(input("b:"))
+while a < b:
+    if a % 2 ==0:
+        print(a)
+        a += 2
+    else:
+        print (a + 1)
+        a = (a // 2 + 1) * 2
+
+print ("End of cicle")
