@@ -3,3 +3,7 @@
 # то программа запрашивает ввод снова.
 
 # TODO: your code here
+a = input("ввод :")
+while a != "хватить":
+    a = input("ввод :")
+print ("End of cicle")
